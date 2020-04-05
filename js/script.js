@@ -20,6 +20,6 @@ function change() {
        }
     };
     var estado = document.getElementById('estado').value;
-    xmlhttp.open("get","../../modules/cidade.php?estado="+estado, true);
+    xmlhttp.open("get","modules/cidade.php?estado="+estado, true);
     xmlhttp.send(null);
  }
