@@ -20,4 +20,5 @@
     $manager->disconnect();
 
 ?>
+<br>
 <button><a href="../index.php">Voltar<a></button>
