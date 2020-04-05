@@ -33,6 +33,13 @@
                 echo '<option value='.$value['id'].'>'.$value[$data].'</option>';
             }
         }
+        
+         public function echoData($data){ 
+            $fetch = $this->getSql_query()->fetchAll();
+            foreach ($fetch as $value){
+                echo $value[$data];
+            }
+        }
 
         /*  GETTERS E SETTERS*/
 
