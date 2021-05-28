@@ -37,7 +37,7 @@
          public function echoData($data){ 
             $fetch = $this->getSql_query()->fetchAll();
             foreach ($fetch as $value){
-                echo $value[$data];
+                echo $value[$data]."<br>";
             }
         }
 
