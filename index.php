@@ -16,8 +16,7 @@
     <form action="modules/dados.php" method="post">
             
             <!--SELECT ESTADOS-->
-            
-            <label for="estado">Estado</label>
+        
             <select name="estado" id="estado" onchange="change()">
                 <option>Selecione o Estado</option>
                 <?php
@@ -27,8 +26,6 @@
             </select>
             
             <!--SELECT CIDADES-->
-            
-            <label for="cidade">Cidade</label>
             <select name="cidade" id="cidade">
                 <option>Selecione a Cidade</option>
             </select>
