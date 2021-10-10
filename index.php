@@ -8,11 +8,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Select Cidade do Estado</title>
+    <!-- CSS only -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <div>
-        <form action="modules/dados.php" method="post">
+    <form action="modules/dados.php" method="post">
             
             <!--SELECT ESTADOS-->
             
@@ -31,9 +32,9 @@
             <select name="cidade" id="cidade">
                 <option>Selecione a Cidade</option>
             </select>
-            <input type="submit" value="Enviar">
+            <input type="submit" class="buton_enviar" value="Enviar">
         </form>
+        <!-- JavaScript Bundle with Popper -->
         <script src="js/script.js"></script>
-    </div>
 </body>
 </html>
